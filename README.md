@@ -1,7 +1,7 @@
-# CutePetsBmore [@CutePetsBmore](http://www.twitter.com/CutePetsBmore)
-This is a bot that retrieves listings from Baltimore City animal shelters and tweets photos and profile links to eligible pets.
+# CutePetsHarford [@CutePetsHarford](http://www.twitter.com/CutePetsHarford)
+This is a bot that retrieves listings from the Humane Society of Harford County and tweets photos and profile links to eligible pets.
 
-Inspired by previous work by [CutePetsDenver](https://github.com/codeforamerica/CutePetsDenver) and [CutePetsAustin](https://github.com/open-austin/CutePetsAustin).
+Inspired by previous work by [CutePetsBmore](https://github.com/Ryan-J-Smith/CutePetsBmore), [CutePetsDenver](https://github.com/codeforamerica/CutePetsDenver) and [CutePetsAustin](https://github.com/open-austin/CutePetsAustin).
 
 The python script assumes that available animals are posted on the Petango service.
 
@@ -36,6 +36,3 @@ The number contained in **"sh=###"** is the ID number of that shelter.  This num
 
 The script attempts to avoid reposting tweets about the same animals.  This is done by tracking recent tweets in a buffer file created by the script.  The size of the buffer file can be adjusted by changing the value of the `queueLen` variable.
 
-### Addtional notes:
-
-* I intended this to run on a Raspberry Pi running debian.  The python script posts a new tweet each time it is called. Regularly scheduled posting is handled by `cron`.
