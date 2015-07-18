@@ -13,8 +13,7 @@ from credentials import twitterConsumerKey, twitterConsumerSecret, twitterAccess
 
 global shelterDict
 shelterDict = {
-    'barcs': 556,
-    'bhs': 444
+    'hshc': 112
     }
 
 scriptDir = os.path.dirname(os.path.realpath(__file__))
